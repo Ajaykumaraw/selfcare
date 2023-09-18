@@ -1,0 +1,100 @@
+import { StyleSheet } from "react-native";
+
+const componentStyle = StyleSheet.create({
+    productContainer:{
+        width:"100%",
+        height:360,
+        margin:10,
+        borderRadius:10,
+        display:'flex',
+        flexDirection:'row', 
+    },
+    packContainer:{
+        width:"100%",
+        margin:10,
+        borderRadius:10,
+        display:'flex',
+        flexDirection:'row', 
+    },
+    container:{
+        display:'flex',
+        flexDirection:'column',
+    },
+    productItem:{
+        width:200,
+        marginRight:30,
+        display:"flex",
+        flexDirection:'column',
+        shadowColor:'gray',
+        backgroundColor:'#ffffff',
+    },
+    productImage:{
+        width:180,
+        height:250,
+        objectFit:"cover",
+        borderRadius:10,
+    },
+    category:{
+        color:"#f52560",
+        marginTop:10,
+        fontSize:18,
+        textTransform:'uppercase'
+    },
+    title:{
+        color:"black",
+        fontWeight:"700",
+        fontSize:20,
+        textTransform:'capitalize'
+    },
+    cart:{
+        display:'flex',
+        flexDirection:'row',
+        marginTop:10,
+        alignContent:'center',
+        justifyContent:'space-between'
+    },
+    cart_price:{
+        fontSize:16,
+        fontWeight:'400'
+    },
+    cart_btn:{
+        marginRight:20,
+        width:40,
+        height:40,
+        borderRadius:50,
+        marginBottom:10,
+        backgroundColor:'#f52560',
+        display:'flex',
+        textAlign:'center',
+        alignItems:'center',
+        justifyContent:'center',
+    },
+    cart_btn_text:{
+        fontSize:20,
+        color:'#fff'
+    },
+    packs:{
+      fontSize:18,
+      fontWeight:'700',
+      margin:10,
+    },
+    packItem:{
+        width:"100%",
+        display:"flex",
+        flexDirection:'row',
+        shadowColor:'gray',
+        backgroundColor:'#ffffff',
+    
+        
+    },
+    packImage:{
+        width:140,
+        height:140,
+        marginRight:10,
+        objectFit:"cover",
+        borderRadius:10,
+
+    }
+})
+
+export default componentStyle;
