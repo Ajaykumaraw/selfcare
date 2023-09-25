@@ -1,19 +1,23 @@
 import HomeStack from './Screens/HomeStack';
-import { View,StyleSheet} from 'react-native';
+import { StyleSheet,SafeAreaView} from 'react-native';
+import { Provider } from 'react-redux';
+import { store } from './store/store';
+
 
 
 export default function App() {
   return (
-    <View style={styles.container}>
+    <Provider store={store}>
+    <SafeAreaView style={styles.container}>
       <HomeStack></HomeStack>
-    </View>
+    </SafeAreaView>
+    </Provider>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    width:'100%',
-    height:'100%',
+    flex:1,
     backgroundColor: '#fff',
     display:'flex'
   },

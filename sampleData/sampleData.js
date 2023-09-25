@@ -1,13 +1,14 @@
 import {bodycare, bodycare1} from '../assets/index'
 
 
-export const product = [
+export let product = [
     {
         title: "Hand Senitizer",
         description: "Vitamin Enriched Hand Senitizer",
         category: "Body care",
-        price: "35",
+        price: 35,
         image: require('../assets/bodycare.jpg'),
+        qty:0,
         ingredient: [
             {
                 name:"Lemon",
@@ -27,8 +28,9 @@ export const product = [
         title: "Febreze",
         description: "Febreze eliminate tough Lingering odors",
         category: "Body care",
-        price: "55",
+        price: 55,
         image: require('../assets/bodycare1.jpg'),
+        qty:0,
         ingredient: [
             {
                 name:"Lemon",
@@ -45,11 +47,12 @@ export const product = [
         ],
     }, 
     {
-        title: "Hadra Pro Matte",
+        title: "Hydra Pro Matte",
         description: " Matifying moisturizing fluid, Normal to combination skin",
         category: "skin care",
-        price: "85",
+        price: 85,
         image: require('../assets/bodycare3.jpg'),
+        qty:0,
         ingredient: [
             {
                 name:"Blueberries",
@@ -69,8 +72,9 @@ export const product = [
         title: "Nivea",
         description: "Nivea Body milk",
         category: "Body care",
-        price: "25",
+        price: 25,
         image: require('../assets/bodycream.jpg'),
+        qty:0,
         ingredient: [
             {
                 name:"Lemon",
@@ -90,8 +94,9 @@ export const product = [
         title: "Curology",
         description: "Curology body cleaner cream, Think and rich almond extract",
         category: "Body care",
-        price: "25",
+        price: 25,
         image: require('../assets/Bodycream.jpg'),
+        qty:0,
         ingredient: [
             {
                 name:"Lemon",
@@ -110,9 +115,10 @@ export const product = [
     {
         title: "Dr. Teals",
         description: "Dr. Teals body care plus moisturizing cream contain rich coconut extract",
-        category: "Skin care",
-        price: "45",
+        category: "skin care",
+        price: 45,
         image: require('../assets/bodylotion.jpg'),
+        qty:0,
         ingredient: [
             {
                 name:"Lemon",
@@ -132,8 +138,9 @@ export const product = [
         title: "Cactus",
         description: "Does Organic build from organic hurbs",
         category: "skin care",
-        price: "25",
+        price: 25,
         image: require('../assets/facecare.jpg'),
+        qty:0,
         ingredient: [
             {
                 name:"Lemon",
@@ -153,8 +160,9 @@ export const product = [
         title: "Bioglow",
         description: "Skin care plush skin nurishing cream, contain orange extract",
         category: "skin care",
-        price: "15",
+        price: 18,
         image: require('../assets/facecream.jpg'),
+        qty:0,
         ingredient: [
             {
                 name:"Lemon",
@@ -174,8 +182,9 @@ export const product = [
         title: "Beauti pie",
         description: "Super healty skin care product for sleep time",
         category: "skin care",
-        price: "38",
+        price: 38,
         image: require('../assets/facecream3.jpg'),
+        qty:0,
         ingredient: [
             {
                 name:"Lemon",
@@ -195,8 +204,9 @@ export const product = [
         title: "Natchu",
         description: "Natchu body and hair care & wash",
         category: "Hair care",
-        price: "47",
+        price: 47,
         image: require('../assets/haircare.jpg'),
+        qty:0,
         ingredient: [
             {
                 name:"Lemon",
@@ -216,8 +226,9 @@ export const product = [
         title: "Febrilic Biglow Hair",
         description: "Hair cream for strengthing of hair and damage control",
         category: "Hair care",
-        price: "26",
+        price: 26,
         image: require('../assets/haircream.jpg'),
+        qty:0,
         ingredient: [
             {
                 name:"Lemon",
@@ -237,8 +248,9 @@ export const product = [
         title: "Natchu Hair buttur",
         description: "Enhance your hair with Hair cream by Natchu, hair growth and repair oil",
         category: "hair care",
-        price: "32",
+        price: 32,
         image: require('../assets/haircream2.jpg'),
+        qty:0,
         ingredient: [
             {
                 name:"Blueberries",

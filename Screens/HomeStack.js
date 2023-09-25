@@ -1,7 +1,7 @@
 import { createNativeStackNavigator } from "@react-navigation/native-stack"
 import { NavigationContainer } from "@react-navigation/native"
 import HomeScreen from "./HomeScreen";
-import Product from "../components/product";
+import Product from "./Product";
 import Cart from "./Cart";
 
 

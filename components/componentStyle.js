@@ -15,21 +15,27 @@ const componentStyle = StyleSheet.create({
         borderRadius:10,
         display:'flex',
         flexDirection:'row', 
+        marginBottom:40,
     },
     container:{
+        paddingBottom:5,
         display:'flex',
         flexDirection:'column',
+        backgroundColor:'#fffff',
+    
     },
     productItem:{
-        width:200,
+        width:190,
         marginRight:30,
         display:"flex",
+        borderRadius:10,
         flexDirection:'column',
         shadowColor:'gray',
-        backgroundColor:'#ffffff',
+        backgroundColor:'#ffff',
+        elevation:5,
     },
     productImage:{
-        width:180,
+        width:"100%",
         height:250,
         objectFit:"cover",
         borderRadius:10,
@@ -37,6 +43,7 @@ const componentStyle = StyleSheet.create({
     category:{
         color:"#f52560",
         marginTop:10,
+        marginLeft:5,
         fontSize:18,
         textTransform:'uppercase'
     },
@@ -44,6 +51,7 @@ const componentStyle = StyleSheet.create({
         color:"black",
         fontWeight:"700",
         fontSize:20,
+        marginLeft:5,
         textTransform:'capitalize'
     },
     cart:{
@@ -55,7 +63,8 @@ const componentStyle = StyleSheet.create({
     },
     cart_price:{
         fontSize:16,
-        fontWeight:'400'
+        fontWeight:'700',
+        marginLeft:5,
     },
     cart_btn:{
         marginRight:20,
